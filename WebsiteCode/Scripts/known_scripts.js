@@ -1,5 +1,5 @@
 //List for the user to put their ideas in
-let ideas = ['Go to park', 'Make Dinner', 'Have fun', 'Cuddle gf'];
+let ideas = ['Go to park', 'Make Dinner', 'Have fun', 'Cuddle bf'];
 
 //Takes in nothing; adds whatever they inputted into the text box
 function addIdeas(){
