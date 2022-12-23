@@ -1,5 +1,5 @@
 * {
-    margin: 100;
+    margin: 0;
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -9,6 +9,7 @@
     overflow-y: hidden;
     overflow-x: hidden; 
     text-align: center;
+<<<<<<< HEAD
   }
 
   #container {
@@ -30,3 +31,39 @@
     height: 100vh;
     width: 400px;
   }
+=======
+    color: white;
+  }
+  /* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: rgb(70,173,176);
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(100,196,199);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+>>>>>>> 27c7d3f4287d486b024b791394e95f38ed01bf36
