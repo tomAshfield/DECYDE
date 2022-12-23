@@ -10,3 +10,23 @@
     overflow-x: hidden; 
     text-align: center;
   }
+
+  #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+  }
+
+  #left-side {
+    background-color: aqua;
+    left: 0;
+    height: 100vh;
+    width: 400px;
+  }
+  #right-side {
+    background-color:blueviolet;
+    right: 0;
+    height: 100vh;
+    width: 400px;
+  }
