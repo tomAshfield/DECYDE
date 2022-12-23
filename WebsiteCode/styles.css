@@ -9,29 +9,6 @@
     overflow-y: hidden;
     overflow-x: hidden; 
     text-align: center;
-<<<<<<< HEAD
-  }
-
-  #container {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    margin: 30px;
-  }
-
-  #left-side {
-    background-color: aqua;
-    left: 0;
-    height: 100vh;
-    width: 400px;
-  }
-  #right-side {
-    background-color:blueviolet;
-    right: 0;
-    height: 100vh;
-    width: 400px;
-  }
-=======
     color: white;
   }
   /* Split the screen in half */
@@ -66,4 +43,3 @@
     text-align: center;
   }
   
->>>>>>> 27c7d3f4287d486b024b791394e95f38ed01bf36
