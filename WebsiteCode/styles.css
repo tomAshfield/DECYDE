@@ -42,4 +42,50 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
+
+  .header {
+    position: fixed;
+    z-index: 2;
+    font-size:100px;
+    margin: 0;
+    width: 100%;
+    top: 50px;
+    font-family: "Chango", sans-serif;
+  }
+
+  .leftarrowimage {
+    width: 800px;
+    left: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .rightarrowimage {
+    width: 800px;
+    left: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    transition: transform .7s ease-in-out;
+    
+    appearance: none;
+    background-color: inherit;
+  }
+
+  .rightarrowbutton:hover{
+    transform: translate(75px);
+}
+
+  .leftarrowbutton:hover{
+    transform: translate(-75px);
+    animation-duration: 2.5s, 5s, 1s;
+
+  }
+
+  .testing{
+    z-index: 2;
+  }
