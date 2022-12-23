@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body {
+    top: 50px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+    text-align: center;
+    color: black;
+  }
+  div {
+    width: 20%;
+    margin: auto;
+  }
+
+  input, button {
+    padding: 10px;
+    display: inline-block;
+  }
+
+  li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -40px;
+    list-style: none;
+  }
