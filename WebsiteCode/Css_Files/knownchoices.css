@@ -9,9 +9,10 @@
     top: 30%;
     margin: 10px;
     right: 800px;
+    z-index: 1;
   }
 
-  button {
+  #submitButton {
     position: absolute;
     font-family: "Be Vietnam Pro", sans-serif;
     text-align: center;
@@ -24,6 +25,32 @@
     top: 40%;
     right: 900px;
     border:3px solid black;
+    z-index: 1;
+  }
+  
+
+  #submitButton:hover {
+    background-color: rgb(194, 189, 189);
+  }
+
+  .FinalDescBtn {
+    position: absolute;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    top: 60%;
+    right: 900px;
+    border:3px solid black;
+    z-index: 1;
+  }
+
+  .FinalDescBtn:hover {
+    background-color: rgb(194, 189, 189);
   }
 
   input {
@@ -39,6 +66,7 @@
     top: 35%;
     right: 820px;
     border:3px solid black;
+    z-index: 1;
   }
 
   ul {
@@ -46,6 +74,7 @@
     right: 400px;
     top: 30%;
   }
+
   li {
     font-family: "Chango", sans-serif;
     font-size: x-large;
@@ -54,4 +83,10 @@
     color: white;
     font-weight: bold;
     list-style: none;
+  }
+
+  .FD.FDList {
+    position: absolute;
+    right: 400px;
+    top: 30%;
   }
