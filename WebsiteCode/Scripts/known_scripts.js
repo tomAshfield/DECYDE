@@ -31,8 +31,6 @@ function FinalIdeas(){
   document.querySelector('.FDList').innerHTML = temp;
 }
 
-FinalIdeas();
-
 
 function nextStep(){
   shuffle(ideas);
