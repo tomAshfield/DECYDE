@@ -12,7 +12,7 @@
     z-index: 1;
   }
 
-  #submitButton {
+  .submitButton {
     position: absolute;
     font-family: "Be Vietnam Pro", sans-serif;
     text-align: center;
@@ -29,7 +29,7 @@
   }
   
 
-  #submitButton:hover {
+  .submitButton:hover {
     background-color: rgb(194, 189, 189);
   }
 
@@ -69,7 +69,7 @@
     z-index: 1;
   }
 
-  ul {
+  .ideaList {
     position: absolute;
     right: 400px;
     top: 30%;
@@ -87,6 +87,6 @@
 
   .FD.FDList {
     position: absolute;
-    right: 400px;
-    top: 30%;
+    right: 200px;
+    top: 20%;
   }
