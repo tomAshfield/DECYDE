@@ -1,0 +1,10 @@
+* {
+    background-color: rgb(70,173,176);
+  }
+  body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+    text-align: center;
+    color: white;
+  }
