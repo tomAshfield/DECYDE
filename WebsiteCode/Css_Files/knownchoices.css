@@ -12,6 +12,12 @@
     z-index: 1;
   }
 
+  .Previous {
+    position:absolute;
+    color: black;
+    display: inline-block;
+    background-color: white;
+  }
   .submitButton {
     position: absolute;
     font-family: "Be Vietnam Pro", sans-serif;
