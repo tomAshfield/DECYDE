@@ -8,3 +8,10 @@
     text-align: center;
     color: white;
   }
+
+  .Previous {
+    position:absolute;
+    color: black;
+    display: inline-block;
+    background-color: white;
+  }
