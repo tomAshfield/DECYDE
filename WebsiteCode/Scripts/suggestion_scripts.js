@@ -10,10 +10,11 @@ window.onload = function() {
                 document.getElementById('location').innerHTML =  data.results[0].formatted;
             });
         }
-    window.navigator.geolocation
-    .getCurrentPosition(successfulLookup, console.log);
-    
-    
+        const error = () =>{
+            document.getElementById('location').innerHTML =  "Unable to retrive your location, please refresh";
+        }
+        window.navigator.geolocation
+    .getCurrentPosition(successfulLookup, error);
     }
 }
 
