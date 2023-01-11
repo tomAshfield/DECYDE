@@ -94,6 +94,7 @@
   .directions {
     position: relative;
     margin: auto;
+    border: none;
     background-color: inherit;
     color: white;
     width: 200px;
