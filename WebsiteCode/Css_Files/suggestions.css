@@ -9,8 +9,153 @@
     color: white;
   }
 
+  .hl {
+    font-family: "Chango", sans-serif; 
+  }
+
+  .hl #location {
+    font-size: large;
+  }
+
+  button:hover{
+    background-color: gray;
+  }
+
+  .food {
+    font-family: "Chango", sans-serif;
+    display: block;
+    top: 35%; 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+  }
+
+  .food #hungryYes{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .food #hungryNo{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+
+  .setting{
+    font-family: "Chango", sans-serif;
+    display: none;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+  }
+
+  .setting #outside{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .setting #inside{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .mood {
+    font-family: "Chango", sans-serif;
+    display: none;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+  }
+
+  .mood #fun{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .mood #chill{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .numOfPeople {
+    font-family: "Chango", sans-serif;
+    display: none;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+  }
+
+  .numOfPeople #group{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .numOfPeople #solo{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .numOfPeople #twoPeeps{
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
   .Previous {
     position:absolute;
+    top: 250px;
+    right: 100px;
     color: black;
     display: inline-block;
     background-color: white;
