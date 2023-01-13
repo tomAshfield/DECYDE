@@ -5,11 +5,23 @@
     font-family: "Be Vietnam Pro", sans-serif;
     text-align: center;
     color: white;
+    
   }
 
-  .hl {
-    font-family: "Chango", sans-serif; 
+  .lower-screen {
+    z-index: 3;
+    display:block;
+    padding: 3px;
+    position:fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
   }
+  .lower-screen .hl {
+    font-family: "Chango", sans-serif; 
+    font-size: 20px;
+  }
+
 
   .hl #location {
     font-size: large;
@@ -102,6 +114,11 @@
     border: white;
   }
 
+  .setting #outside:active{
+    background-color: white;
+  }
+  
+
   .setting #inside{
     margin: 30px;
     font-size: large;
@@ -125,12 +142,13 @@
   .outsideList{
     font-family: "Chango", sans-serif;
     display: none;
-    top: 35%; 
+    top: 18%; 
     width: 100%;
     text-align: center;
     position: absolute;
     font-size: xx-large;
   }
+  
 
   .outsideList .outAct {
     position: absolute;
@@ -145,9 +163,10 @@
     font-family: "Chango", sans-serif; 
     width: 100px;
     height: 50px;
-    left: 700px;
     color: white;
-    border: white;
+    bottom: 0px;
+    left: 0px;
+    border: none;
   }
 
   .outsideList .ol {
@@ -157,7 +176,7 @@
   .insideList {
     font-family: "Chango", sans-serif;
     display: none;
-    top: 35%; 
+    top: 18%; 
     width: 100%;
     text-align: center;
     position: absolute;
@@ -177,16 +196,17 @@
     font-family: "Chango", sans-serif; 
     width: 100px;
     height: 50px;
-    left: 700px;
     color: white;
-    border: white;
+    bottom: 0px;
+    left: 0px;
+    border: none;
   }
 
   .insideList .il {
     list-style-type: none;
   }
 
-  .previous {
+  .food .previous {
     position:absolute;
     bottom: 40px;
     border: none;
@@ -207,4 +227,47 @@
     a:hover {
       color: rgb(100,196,199);
       background: none;
+    }
+
+    /*Two lists indoor suggestion page */
+    .in-first-list {
+      position: absolute;
+      right: 18%;
+      border: none;
+      
+    }
+
+    .in-second-list {
+      position: absolute;
+      left: 10%;
+      border: none;
+    }
+
+    .out-first-list {
+      position: absolute;
+      right: 18%;
+      border: none;
+      
+    }
+
+    .out-second-list {
+      position: absolute;
+      left: 15%;
+      border: none;
+    }
+
+    .insideList .explore-links {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: 100%;
+      font-size:medium;
+    }
+
+    .outsideList .explore-links {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: 100%;
+      font-size:medium;
     }
