@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/8f207f1768.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script"></script>
     <link rel="stylesheet" href="../Css_Files/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap"
@@ -18,9 +19,17 @@
 
   </head>
 <body>
-    <div class="header">
-      <p>DECYDE</p>
+
+    
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span>
     </div>
+
+    <div class="header">
+      <img class="mainlogo" src="../Images/DECYDElogo.png" alt="mainlogo">
+    </div>
+
+    
 
     <div class="split left">
         <div class="centered">
@@ -40,18 +49,24 @@
           </button>
         </a>
         </div>
-
       </div>
-      <button class="directions" id="myBtn">Directions</button>
-  <!-- The Modal -->
+
+      
+  
+  
+  <footer>
+    <button class="directions" id="myBtn">Directions</button>
+
+    <!-- The Modal -->
     <div id="myModal" class="modal">
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
         <p>A brief explination: </p>
       </div>
-
   </div>
   <script src="../Scripts/scripts.js"></script>
+  </footer>
+  
 </body>
 </html>

@@ -96,10 +96,10 @@
     margin: auto;
     border: none;
     background-color: inherit;
-    color: white;
+    color: black;
     width: 200px;
     height: auto;
-    top: 450px;
+    
   }
 
   .directions:hover {
@@ -143,4 +143,103 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.header .mainlogo {
+  width: 50%;
+  height: 50%;
+  animation: floater 3s infinite;
+}
+
+footer {
+  background-color: white;
+  z-index: 3;
+  display:block;
+  padding: 3px;
+  position:fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Loading Animation */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(100,196,199);
+  z-index:6;
+  
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  top:50%;
+  animation: loader 2s infinite ease;
+
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+/*Floating Header Main Logo */
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 1.5s;}
+  50%{transform: translateY(10%);transition: ease 1.5s;}
+  100%{transform: translateY(-10%);transition: ease 1.5s;}
 }

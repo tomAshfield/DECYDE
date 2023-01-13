@@ -23,3 +23,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$("document").ready($(".loader-wrapper").delay(2000).fadeOut("slow"));
