@@ -16,7 +16,7 @@
   }
 
   button:hover{
-    background-color: gray;
+    background-color: rgb(100,196,199);
   }
 
   .food {
@@ -186,11 +186,25 @@
     list-style-type: none;
   }
 
-  .Previous {
+  .previous {
     position:absolute;
-    top: 250px;
-    right: 100px;
-    color: black;
-    display: inline-block;
-    background-color: white;
-  }
+    bottom: 40px;
+    border: none;
+    background-color: transparent;
+   
+    }
+  
+    a:link {
+      color: white;
+      background: none;
+    }
+
+    a:visited {
+      color: white;
+      background: none;
+    }
+
+    a:hover {
+      color: rgb(100,196,199);
+      background: none;
+    }
