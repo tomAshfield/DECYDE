@@ -96,9 +96,12 @@
     margin: auto;
     border: none;
     background-color: inherit;
-    color: black;
+    color: rgb(70,173,176);
     width: 200px;
     height: auto;
+    font-family: "Chango", sans-serif;
+
+
     
   }
 
