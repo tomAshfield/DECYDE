@@ -1,5 +1,5 @@
 //List for the user to put their ideas in
-let ideas = ['Go to park', 'Make Dinner', 'Have fun', 'Cuddle bf'];
+let ideas = [];
 let finalIdeas = [];
 let finalIdea = [];
 let fIdea;

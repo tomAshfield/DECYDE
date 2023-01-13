@@ -3,8 +3,6 @@
   }
   body {
     font-family: "Be Vietnam Pro", sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden; 
     text-align: center;
     color: white;
   }
@@ -51,6 +49,38 @@
     border: white;
   }
 
+  .foodList{
+    font-family: "Chango", sans-serif;
+    display: none;
+    top: 35%; 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+  }
+
+  .fQuestion {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 100%;
+  }
+
+  .foodList .gback {
+    position: absolute;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    left: 700px;
+    color: white;
+    border: white;
+  }
+
+  .foodList .foodGenres {
+    list-style-type: none;
+  }
+
 
   .setting{
     font-family: "Chango", sans-serif;
@@ -82,74 +112,78 @@
     border: white;
   }
 
-  .mood {
+  .setting .settingGoBack {
+    margin: 30px;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: white;
+  }
+
+  .outsideList{
     font-family: "Chango", sans-serif;
     display: none;
+    top: 35%; 
     width: 100%;
-    top: 35%;
     text-align: center;
     position: absolute;
     font-size: xx-large;
   }
 
-  .mood #fun{
-    margin: 30px;
+  .outsideList .outAct {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 100%;
+  }
+
+  .outsideList .outGoBack {
+    position: absolute;
     font-size: large;
     font-family: "Chango", sans-serif; 
     width: 100px;
     height: 50px;
+    left: 700px;
     color: white;
     border: white;
   }
 
-  .mood #chill{
-    margin: 30px;
-    font-size: large;
-    font-family: "Chango", sans-serif; 
-    width: 100px;
-    height: 50px;
-    color: white;
-    border: white;
+  .outsideList .ol {
+    list-style-type: none;
   }
 
-  .numOfPeople {
+  .insideList {
     font-family: "Chango", sans-serif;
     display: none;
+    top: 35%; 
     width: 100%;
-    top: 35%;
     text-align: center;
     position: absolute;
     font-size: xx-large;
   }
 
-  .numOfPeople #group{
-    margin: 30px;
+  .insideList .inAct {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 100%;
+  }
+
+  .insideList .inGoBack {
+    position: absolute;
     font-size: large;
     font-family: "Chango", sans-serif; 
     width: 100px;
     height: 50px;
+    left: 700px;
     color: white;
     border: white;
   }
 
-  .numOfPeople #solo{
-    margin: 30px;
-    font-size: large;
-    font-family: "Chango", sans-serif; 
-    width: 100px;
-    height: 50px;
-    color: white;
-    border: white;
-  }
-
-  .numOfPeople #twoPeeps{
-    margin: 30px;
-    font-size: large;
-    font-family: "Chango", sans-serif; 
-    width: 100px;
-    height: 50px;
-    color: white;
-    border: white;
+  .insideList .il {
+    list-style-type: none;
   }
 
   .Previous {

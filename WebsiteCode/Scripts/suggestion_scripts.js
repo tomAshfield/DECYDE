@@ -23,52 +23,55 @@ window.onload = function() {
 var FoodDiv = document.getElementById("fFood");
 var hungryYBtn = document.getElementById("hungryYes");
 var hungryNBtn = document.getElementById("hungryNo");
+var FGoBack = document.getElementById("fgoBack");
+var FoodList = document.getElementById("specificFoods");
 
 var SettingDiv = document.getElementById("sSetting");
+var SettingGoBackBtn = document.getElementById("sGBack");
+
 var InsideBtn = document.getElementById("inside");
+var InsideList = document.getElementById("inList");
+var InsideGoBackBtn = document.getElementById("iGBack");
+
 var OutsideBtn = document.getElementById("outside");
-
-var MoodDiv = document.getElementById("mMood");
-var FunBtn = document.getElementById("fun");
-var ChillBtn = document.getElementById("chill");
-
-var NumOfPeopleDiv = document.getElementById("numberOfPeople");
-var GroupBtn = document.getElementById("group");
-var SoloBtn = document.getElementById("solo");
-var TwoPBtn = document.getElementById("twoPeeps");
+var OutsideGoBackBtn = document.getElementById("oGBack");
+var OutsideList = document.getElementById("outList");
 
 hungryYBtn.onclick = function() {
     FoodDiv.style.display = "none";
+    FoodList.style.display = "block";
   }
 hungryNBtn.onclick = function() {
     FoodDiv.style.display = "none";
     SettingDiv.style.display = "block";
   }
 
+FGoBack.onclick = function() {
+  FoodList.style.display = "none";
+  FoodDiv.style.display = "block";
+}
+
+SettingGoBackBtn.onclick = function() {
+  SettingDiv.style.display = "none";
+  FoodDiv.style.display = "block";
+}
+
 InsideBtn.onclick = function() {
     SettingDiv.style.display = "none";
-    MoodDiv.style.display = "block";
+    InsideList.style.display = "block";
   }
+
+InsideGoBackBtn.onclick = function() {
+  InsideList.style.display = "none";
+  SettingDiv.style.display = "block"
+}
+
 OutsideBtn.onclick = function() {
     SettingDiv.style.display = "none";
-    MoodDiv.style.display = "block";
+    OutsideList.style.display = "block";
   }
 
-FunBtn.onclick = function() {
-    MoodDiv.style.display = "none";
-    NumOfPeopleDiv.style.display = "block";
-  }
-ChillBtn.onclick = function() {
-    MoodDiv.style.display = "none";
-    NumOfPeopleDiv.style.display = "block";
-  }
-
-GroupBtn.onclick = function() {
-    NumOfPeopleDiv.style.display = "none";
-  }
-SoloBtn.onclick = function() {
-    NumOfPeopleDiv.style.display = "none";
-  }
-TwoPBtn.onclick = function() {
-    NumOfPeopleDiv.style.display = "none";
-  }
+OutsideGoBackBtn.onclick = function() {
+  OutsideList.style.display = "none";
+  SettingDiv.style.display = "block"
+}
