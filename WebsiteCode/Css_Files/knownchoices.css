@@ -1,12 +1,16 @@
 * {
-  background-color: rgb(100,196,199);
-  
+  background-color: rgb(100,196,199); 
 }
 
-body {
-  background-image: url(https://i.imgur.com/t1p3spo.png);
-  background-repeat: no-repeat;
+html, body {
+  margin: 0;
 }
+
+  .header .background-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
 
   .enterIdeas {
     position: absolute;
@@ -15,6 +19,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Chango", sans-serif;
+    z-index: 1;
   }
 
   .enterIdeas .First-Header {
@@ -30,6 +35,7 @@ body {
     color: black;
     display: inline-block;
     background-color: white;
+    z-index: 1;
   }
   
 
