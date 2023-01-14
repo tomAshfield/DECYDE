@@ -1,9 +1,19 @@
 * {
     background-color: rgb(70,173,176);
   }
+
+  html, body {
+    margin: 0;
+  }
+  
+    .header .background-img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+  
   body {
     font-family: "Be Vietnam Pro", sans-serif;
-    text-align: center;
     color: white;
     
   }
@@ -37,6 +47,7 @@
   }
 
   .food {
+    text-align: center;
     font-family: "Chango", sans-serif;
     display: block;
     top: 35%; 
@@ -67,6 +78,7 @@
   }
 
   .foodList{
+    text-align: center;
     font-family: "Chango", sans-serif;
     display: none;
     top: 35%; 
@@ -100,6 +112,7 @@
 
 
   .setting{
+    text-align: center;
     font-family: "Chango", sans-serif;
     display: none;
     width: 100%;
@@ -145,6 +158,7 @@
   }
 
   .outsideList{
+    text-align: center;
     font-family: "Chango", sans-serif;
     display: none;
     top: 18%; 
@@ -179,6 +193,7 @@
   }
 
   .insideList {
+    text-align: center;
     font-family: "Chango", sans-serif;
     display: none;
     top: 18%; 
