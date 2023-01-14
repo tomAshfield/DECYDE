@@ -1,14 +1,27 @@
 * {
   background-color: rgb(100,196,199);
+  
 }
-  .First-Header {
+
+body {
+  background-image: url(https://i.imgur.com/t1p3spo.png);
+  background-repeat: no-repeat;
+}
+
+  .enterIdeas {
     position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Chango", sans-serif;
+  }
+
+  .enterIdeas .First-Header {
     font-size:xx-large;
     text-align: center;
     color: white;
-    top: 30%;
-    margin: 10px;
-    right: 800px;
+    width: 100%;
     z-index: 1;
   }
 
@@ -18,40 +31,23 @@
     display: inline-block;
     background-color: white;
   }
-  .submitButton {
-    position: absolute;
-    font-family: "Be Vietnam Pro", sans-serif;
-    text-align: center;
-    color: black;
-    display: inline-block;
-    background-color: white;
-    width: 100px;
-    height: 30px;
-    margin: 10px;
-    top: 40%;
-    right: 900px;
-    border:3px solid black;
-    z-index: 1;
-  }
   
 
-  .submitButton:hover {
+  .enterIdeas .FD .FinalDescBtn:hover {
     background-color: rgb(194, 189, 189);
   }
 
-  .FinalDescBtn {
+  .enterIdeas .FD .FinalDescBtn {
     position: absolute;
-    font-family: "Be Vietnam Pro", sans-serif;
-    text-align: center;
-    color: black;
-    display: inline-block;
-    background-color: white;
-    width: 100px;
-    height: 30px;
-    margin: 10px;
-    top: 60%;
-    right: 900px;
-    border:3px solid black;
+    font-size: large;
+    font-family: "Chango", sans-serif; 
+    background-color: rgb(100,196,199);
+    color: white;
+    width: 150px;
+    height: 50px;
+    right: 35%;
+    top: 160%;
+    border:3px solid rgb(100,196,199);
     z-index: 1;
   }
 
@@ -59,40 +55,40 @@
     background-color: rgb(194, 189, 189);
   }
 
-  input {
+  .enterIdeas .inputBox {
     position: absolute;
-    font-family: "Be Vietnam Pro", sans-serif;
-    text-align: center;
-    color: black;
-    display: inline-block;
-    background-color: white;
-    width: 250px;
-    height: 30px;
-    margin: 10px;
-    top: 35%;
-    right: 820px;
     border:3px solid black;
-    z-index: 1;
-  }
-
-  .ideaList {
-    position: absolute;
-    right: 400px;
-    top: 30%;
-  }
-
-  li {
     font-family: "Chango", sans-serif;
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 30px;
+    top: 90%;
+    right: 25%;
+  }
+
+  .enterIdeas .ideaList {
+    position: absolute;
     font-size: x-large;
-    text-align: center;
-    margin-left: 100px;
     color: white;
+    left: 140%;
     font-weight: bold;
     list-style: none;
   }
 
-  .FD.FDList {
+  .enterIdeas .FDList {
     position: absolute;
-    right: 200px;
-    top: 20%;
+    list-style: none;
+    left: 100%;
+    bottom: -80%;
+  }
+
+  .enterIdeas .fIdeaHeader {
+    position: absolute;
+    color: white;
+    display: none;
+    right: 35%;
+    bottom: 220%;
+    width: 100%;
+    list-style: none;
   }

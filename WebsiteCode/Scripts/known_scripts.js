@@ -24,7 +24,20 @@ function addIdea(){
     addIdeas();
 }
 
+//Checking if the enter key was pressed inside the input box
+document.addEventListener("keyup", function(event) {
+  if(input.value != "") {
+    if (event.code === 'Enter') {
+        addIdea();
+    }
+  }
+  else {
+    alert("Can't enter nothing!!!");
+  }
+});
+
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+var FinalIdeaHeader = document.getElementById("finalIdeaHeader");
 function FinalIdeas(){
   finalIdea.push(fIdea)
   let temp = finalIdea.map(idea => `<li>${idea}</li>`).join('\n');
@@ -33,9 +46,15 @@ function FinalIdeas(){
 
 
 function nextStep(){
-  shuffle(ideas);
-  userPrompt();
-  FinalIdeas();
+  if(ideas.length != 0){
+    shuffle(ideas);
+    userPrompt();
+    FinalIdeaHeader.style.display = "block";
+    FinalIdeas();
+  }
+  else {
+    alert("Make sure to enter your ideas first before going to the next step!!!");
+  }
 }
 
 //Shuffle the ideas when the user is ready to move on

@@ -17,24 +17,21 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chango">
   </head>
   <body>
-
-    <label class="First-Header">Enter Your Ideas Here!</label><br>
-    <input type="text"><br>
-    <button type="button" class="submitButton" id="submit" onclick="addIdea()">Submit</button>
-    <ul class="ideaList"></ul>
+    <div class="enterIdeas">
+      <label class="First-Header">Enter Your Ideas Here!</label><br>
+      <input class="inputBox" type="text"><br>
+      <h1 class="fIdeaHeader" id="finalIdeaHeader">Your Decyded Result: <span><ul class="FDList"></ul></span></h1>
+      <ul class="ideaList"></ul>
+      <div class="FD">
+        <button type="button" class="FinalDescBtn" id="final" onclick="nextStep()">Next Step</button>
+      </div>
+    </div>
 
     <div class="Previous">
       <a href="index.html">
         <button type="button" class="Previous">Previous</button>
       </a>
     </div>
-
-    <div class="FD">
-      <button type="button" class="FinalDescBtn" id="final" onclick="nextStep()">Next Step</button>
-      <ul class="FDList"></ul>
-    </div>
-
-
     <script src="../Scripts/known_scripts.js"></script>
   </body>
 </html>
