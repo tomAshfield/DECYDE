@@ -11,20 +11,25 @@
   .lower-screen {
     z-index: 3;
     display:block;
-    padding: 3px;
+    padding: 0;
+    margin:auto;
     position:fixed;
     height: 50px;
     width: 100%;
     bottom: 0;
+    background-color:white;
   }
   .lower-screen .hl {
     font-family: "Chango", sans-serif; 
     font-size: 20px;
+    color: rgb(100,196,199);
+    background-color: white;
   }
 
 
   .hl #location {
     font-size: large;
+    background-color: white;
   }
 
   button:hover{
@@ -115,7 +120,7 @@
   }
 
   .setting #outside:active{
-    background-color: white;
+    background-color: rgb(100,196,199);
   }
   
 
@@ -207,8 +212,8 @@
   }
 
   .food .previous {
-    position:absolute;
-    bottom: 40px;
+    position:fixed;
+    top: 20px;
     border: none;
     background-color: transparent;
    
