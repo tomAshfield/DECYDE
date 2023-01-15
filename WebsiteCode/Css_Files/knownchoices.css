@@ -1,106 +1,106 @@
 * {
-  background-color: rgb(100,196,199); 
+  background-color: rgb(100, 196, 199);
 }
 
-html, body {
+html,
+body {
   margin: 0;
 }
 
-  .header .background-img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
+.header .background-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 
-  .enterIdeas {
-    position: absolute;
-    margin: 0 auto;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Chango", sans-serif;
-    z-index: 1;
-  }
+.enterIdeas {
+  position: absolute;
+  margin: 0 auto;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Chango", sans-serif;
+  z-index: 1;
+}
 
-  .enterIdeas .First-Header {
-    font-size:xx-large;
-    text-align: center;
-    color: white;
-    width: 100%;
-    z-index: 1;
-  }
+.enterIdeas .First-Header {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  width: 100%;
+  z-index: 1;
+}
 
-  .previous {
-    position: absolute;
-    top: 75%;
-    right: 80%;
-    border: none;
-    background-color: transparent;
-  }
-  
+.previous {
+  position: absolute;
+  top: 75%;
+  right: 80%;
+  border: none;
+  background-color: transparent;
+}
 
-  .enterIdeas .FD .FinalDescBtn:hover {
-    background-color: rgb(70,173,176);
-  }
+.enterIdeas .FD .FinalDescBtn:hover {
+  background-color: rgb(70, 173, 176);
+}
 
-  .enterIdeas .FD .FinalDescBtn {
-    position: absolute;
-    font-size: large;
-    font-family: "Chango", sans-serif; 
-    background-color: rgb(100,196,199);
-    color: white;
-    width: 150px;
-    height: 50px;
-    right: 35%;
-    top: 160%;
-    border:3px solid rgb(100,196,199);
-    z-index: 1;
-  }
+.enterIdeas .FD .FinalDescBtn {
+  position: absolute;
+  font-size: large;
+  font-family: "Chango", sans-serif;
+  background-color: rgb(100, 196, 199);
+  color: white;
+  width: 150px;
+  height: 50px;
+  right: 35%;
+  top: 160%;
+  border: 3px solid rgb(100, 196, 199);
+  z-index: 1;
+}
 
-  .FinalDescBtn:hover {
-    background-color: rgb(70,173,176);
-  }
+.FinalDescBtn:hover {
+  background-color: rgb(70, 173, 176);
+}
 
-  .enterIdeas .inputBox {
-    position: absolute;
-    border:3px rgb(70,173,176) ;
-    font-family: "Chango", sans-serif;
-    color: black;
-    background-color: white;
-    width: 50%;
-    height: 30px;
-    top: 90%;
-    right: 25%;
-  }
+.enterIdeas .inputBox {
+  position: absolute;
+  border: 3px rgb(70, 173, 176);
+  font-family: "Chango", sans-serif;
+  color: black;
+  background-color: white;
+  width: 50%;
+  height: 30px;
+  top: 90%;
+  right: 25%;
+}
 
-  .enterIdeas .ideaList {
-    padding: 0;
-    position: absolute;
-    font-size: x-large;
-    width: auto;
-    color: white;
-    left: 140%;
-    font-weight: bold;
-    list-style: none;
-  }
+.enterIdeas .ideaList {
+  padding: 0;
+  position: absolute;
+  font-size: x-large;
+  width: auto;
+  color: white;
+  left: 140%;
+  font-weight: bold;
+  list-style: none;
+}
 
-  .enterIdeas .FDList {
-    position: absolute;
-    list-style: none;
-    left: 100%;
-    bottom: -80%;
-  }
+.enterIdeas .FDList {
+  position: absolute;
+  list-style: none;
+  left: 100%;
+  bottom: -80%;
+}
 
-  .enterIdeas .fIdeaHeader {
-    position: absolute;
-    color: white;
-    display: none;
-    right: 35%;
-    bottom: 220%;
-    width: 100%;
-    list-style: none;
-  }
+.enterIdeas .fIdeaHeader {
+  position: absolute;
+  color: white;
+  display: none;
+  right: 35%;
+  bottom: 220%;
+  width: 100%;
+  list-style: none;
+}
 
-  li {
-    width: 300px;
-  }
+li {
+  width: 300px;
+}
