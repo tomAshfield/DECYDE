@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>DECYDE</title>
-    <link rel="favicon" type="png" href="/Images/favicon.png">
+    <link rel="website icon" type="png" href="../Images/favicon.png">
     <script
       src="https://kit.fontawesome.com/8f207f1768.js"
       crossorigin="anonymous"
@@ -26,67 +26,73 @@
       <span class="loader"><span class="loader-inner"></span>
     </div>
 
-    <div class="header">
-      <img class="mainlogo" src="../Images/DECYDElogo.png" alt="mainlogo">
+    <div class="wrapper">
+
+      <div class="header">
+        <img class="mainlogo" src="../Images/DECYDElogo.png" alt="mainlogo">
+      </div>
+
+      <button class="directions" id="myBtn">Directions!</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Welcome to Decyde! Let's help you make some decisions.</p>
+          <p>If you have no clue what to do with your day, venture to the "Give me some ideas" side! Answer a series of questions to receive activities near you that may spark your interest.</p>
+          <p>If you already have a couple of ideas but need help making that final decision, try out the "Somethin' in mind" side. Enter your choices, then pick a random number; we'll give you one of your entered activities at random! </p>
+        </div>
     </div>
 
-    <button class="directions" id="myBtn">Directions!</button>
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Welcome to Decyde! Let's help you make some decisions.</p>
-        <p>If you have no clue what to do with your day, venture to the "Give me some ideas" side! Answer a series of questions to receive activities near you that may spark your interest.</p>
-        <p>If you already have a couple of ideas but need help making that final decision, try out the "Somethin' in mind" side. Enter your choices, then pick a random number; we'll give you one of your entered activities at random! </p>
-      </div>
-  </div>
-
-    <div class="split left">
-        <div class="centered">
-          <a href="suggestions.html">
-            <button class = "leftarrowbutton">
-              <img class= "leftarrowimage" src="../Images/leftarrowimage.png" alt="leftarrow">
+      <div class="split left">
+          <div class="centered">
+            <a href="suggestions.html">
+              <button class = "leftarrowbutton">
+                <img class= "leftarrowimage" src="../Images/leftarrowimage.png" alt="leftarrow">
+              </button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="split right">
+          <div class="centered">
+            <a href="knownchoices.html">
+            <button class = "rightarrowbutton">
+              <img class= "rightarrowimage" src="../Images/rightarrowimage.png" alt="rightarrow">
             </button>
           </a>
+          </div>
         </div>
-      </div>
-      
-      <div class="split right">
-        <div class="centered">
-          <a href="knownchoices.html">
-          <button class = "rightarrowbutton">
-            <img class= "rightarrowimage" src="../Images/rightarrowimage.png" alt="rightarrow">
-          </button>
-        </a>
-        </div>
-      </div>
 
   <footer class="footer">
     <h1 class="fTitle">Creators</h1> 
     <div class="tommy-contact">
-      <p>Thomas Ashfield <br>tashfield715@gmail.com</p>
+      <p>Thomas Ashfield <br>tashfield715@gmail.com</p><br>
+      <div class="tommy-button">
+        <a href="https://www.linkedin.com/in/thomasashfield/" target="_blank">
+          <button class = "tommy-linkedin">
+            <img class= "linkedin" src="../Images/linkedin.png" alt="tommysButton">
+          </button>
+        </a>
+        </div>
     </div>
-    <div class="tommy-button">
-    <a href="https://www.linkedin.com/in/gscozzaro/">
-      <button class = "gia-linkedin">
-        <img class= "linkedin" src="../Images/linkedin.png" alt="leftarrow">
-      </button>
-    </a>
-    </div>
+    
 
     <div class="gia-contact">
-      <p>Giovanna Scozzaro <br> gscozzaro2004@gmail.com</p>
+      <p>Giovanna Scozzaro <br> gscozzaro2004@gmail.com</p><br>
+      <div class="gia-button">
+        <a href="https://www.linkedin.com/in/gscozzaro/" target="_blank">
+          <button class = "gia-linkedin">
+            <img class= "linkedin" src="../Images/linkedin.png" alt="leftarrow">
+          </button>
+        </a>
+        </div>
     </div>
-    <div class="gia-button">
-      <a href="https://www.linkedin.com/in/gscozzaro/">
-        <button class = "gia-linkedin">
-          <img class= "linkedin" src="../Images/linkedin.png" alt="leftarrow">
-        </button>
-      </a>
-      </div>
   </footer>
+</div>
+
+  <div class="notOnPc"></div>
   <script src="../Scripts/scripts.js"></script>
 </body>
 </html>
