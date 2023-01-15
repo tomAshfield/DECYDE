@@ -30,12 +30,12 @@ html, body {
     z-index: 1;
   }
 
-  .Previous {
-    position:absolute;
-    color: black;
-    display: inline-block;
-    background-color: white;
-    z-index: 1;
+  .previous {
+    position: absolute;
+    top: 75%;
+    right: 80%;
+    border: none;
+    background-color: transparent;
   }
   
 
@@ -74,8 +74,10 @@ html, body {
   }
 
   .enterIdeas .ideaList {
+    padding: 0;
     position: absolute;
     font-size: x-large;
+    width: auto;
     color: white;
     left: 140%;
     font-weight: bold;
@@ -97,4 +99,8 @@ html, body {
     bottom: 220%;
     width: 100%;
     list-style: none;
+  }
+
+  li {
+    width: 300px;
   }
