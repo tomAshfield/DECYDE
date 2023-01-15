@@ -50,15 +50,19 @@
   }
 
   .leftarrowimage {
-    width: 800px;
-    left: 0;
+    position: relative;
+    max-width: 200%;
+    height: 100%;
+    left: -40%;
     border: none;
     background-color: transparent;
   }
 
   .rightarrowimage {
-    width: 800px;
-    left: 0;
+    position: relative;
+    max-width: 200%;
+    height: 100%;
+    right: 30%;
     border: none;
     background-color: transparent;
   }
