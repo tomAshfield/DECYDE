@@ -60,13 +60,16 @@
     font-size: xx-large;
   }
 
-  .food .previous {
+  .previous {
     position: absolute;
-    top: 320%;
-    right: 180%;
+    top: 75%;
+    right: 80%;
     border: none;
     background-color: transparent;
-   
+  }
+
+  .previous:hover {
+    background-color: inherit;
   }
 
   .food #hungryYes{
@@ -185,6 +188,7 @@
     text-align: center;
     position: absolute;
     font-size: xx-large;
+    padding-bottom: 100px;
   }
 
   .outsideList .ol {
