@@ -40,7 +40,7 @@ html, body {
   
 
   .enterIdeas .FD .FinalDescBtn:hover {
-    background-color: rgb(194, 189, 189);
+    background-color: rgb(70,173,176);
   }
 
   .enterIdeas .FD .FinalDescBtn {
@@ -58,12 +58,12 @@ html, body {
   }
 
   .FinalDescBtn:hover {
-    background-color: rgb(194, 189, 189);
+    background-color: rgb(70,173,176);
   }
 
   .enterIdeas .inputBox {
     position: absolute;
-    border:3px solid black;
+    border:3px rgb(70,173,176) ;
     font-family: "Chango", sans-serif;
     color: black;
     background-color: white;
