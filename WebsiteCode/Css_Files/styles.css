@@ -174,9 +174,49 @@
   text-align: center;
   bottom: 45%;
   left: 45%;
-  color: black;
+  color: rgb(70,173,176);
 }
 
+.footer .tommy-contact {
+  left: 19%;
+  position: absolute;
+  text-align:center;
+  z-index: 4;
+  color: rgb(100,196,199);
+
+}
+
+.footer .gia-contact {
+  right: 19%;
+  top: 0;
+  position: absolute;
+  text-align:center;
+  z-index: 4;
+  color: rgb(100,196,199);
+
+}
+
+.footer .linkedin {
+  position: absolute;
+  height: auto;
+  width: 1.5%;
+  top: 50%;
+}
+
+.footer .linkedin:hover {
+  filter: grayscale(100%);
+}
+
+.footer .tommy-button .linkedin {
+  position: absolute;
+  z-index: 5;
+  left: 25%;
+}
+.footer .gia-button .linkedin {
+  position: absolute;
+  z-index: 5;
+  right: 25%;
+}
 /* Loading Animation */
 .loader-wrapper {
   width: 100%;

@@ -24,4 +24,4 @@ window.onclick = function(event) {
   }
 }
 
-$("document").ready($(".loader-wrapper").delay(2000).fadeOut("slow"));
+$("document").ready($(".loader-wrapper").delay(1500).fadeOut("slow"));
