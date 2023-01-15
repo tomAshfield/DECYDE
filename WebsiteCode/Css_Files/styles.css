@@ -1,295 +1,282 @@
 * {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: "Be Vietnam Pro", sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden; 
-    text-align: center;
-    color: white;
-  }
-
-@media only screen and (min-width: 768px) {
-  .notOnPc{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: 6;
-  }
+  scroll-behavior: smooth;
 }
-  /* Split the screen in half */
-  .split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    margin: auto;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .left {
-    left: 25%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(70,173,176);
-  }
-  
-  /* Control the right side */
-  .right {
-    left: 75%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(100,196,199);
-  }
-  
-  /* If you want the content centered horizontally and vertically */
-  .centered {
-    position: absolute;
-    padding: 30px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .header {
-    overflow-y: unset;
-    position: fixed;
-    z-index: 1;
-    font-size:100px;
-    margin: 0;
-    width: 100%;
-    font-family: "Chango", sans-serif;
-  }
-
-  .leftarrowimage {
-    position: relative;
-    max-width: 200%;
-    height: 100%;
-    left: -50%;
-    border: none;
-    background-color: transparent;
-  }
-
-  .rightarrowimage {
-    position: relative;
-    max-width: 200%;
-    height: 100%;
-    right: 45%;
-    border: none;
-    background-color: transparent;
-  }
-
-  .rightarrowbutton {
-    border: none;
-    cursor: pointer;
-    transition: transform .7s ease-in-out;
-    
-    appearance: none;
-    background-color: inherit;
-  }
-
-  .leftarrowbutton {
-    border: none;
-    cursor: pointer;
-    transition: transform .7s ease-in-out;
-    
-    appearance: none;
-    background-color: inherit;
-  }
-
-  .rightarrowbutton:hover{
-    transform: translate(75px);
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  color: white;
 }
 
-  .leftarrowbutton:hover{
-    transform: translate(-75px);
-    animation-duration: 2.5s, 5s, 1s;
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-  }
+/* Control the left side */
+.left {
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(70, 173, 176);
+}
 
-  .directions {
-    position: absolute;
-    border: none;
-    font-size: x-large;
-    top: 70%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    background-color: inherit;
-    color: white;
-    width: 200px;
-    height: auto;
-    font-family: "Chango", sans-serif;
-    z-index: 1;    
-  }
+/* Control the right side */
+.right {
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(100, 196, 199);
+}
 
-  .directions:hover {
-    background-color: rgb(194, 189, 189);
-  }
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+.header {
+  overflow-y: unset;
+  position: fixed;
+  z-index: 1;
+  font-size: 100px;
+  margin: 0;
+  width: 100%;
+  font-family: "Chango", sans-serif;
+}
 
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    color: black;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
+.leftarrowimage {
+  position: relative;
+  max-width: 200%;
+  height: 100%;
+  left: -50%;
+  border: none;
+  background-color: transparent;
+}
 
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+.rightarrowimage {
+  position: relative;
+  max-width: 200%;
+  height: 100%;
+  right: 45%;
+  border: none;
+  background-color: transparent;
+}
 
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.rightarrowbutton {
+  border: none;
+  cursor: pointer;
+  transition: transform 0.7s ease-in-out;
 
-  .header .mainlogo {
-    width: 50%;
-    height: 50%;
-    animation: floater 3s infinite;
-  }
+  appearance: none;
+  background-color: inherit;
+}
 
-  .footer {
-    background-color: rgb(255, 255, 255);
-    font-family: "Chango", sans-serif;
-    display:block;
-    position:fixed;
-    height: 100px;
-    width: 100%;
-    bottom: 0;
-  }
+.leftarrowbutton {
+  border: none;
+  cursor: pointer;
+  transition: transform 0.7s ease-in-out;
 
-  .footer .fTitle {
-    position: absolute;
-    text-align: center;
-    bottom: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: -10%;
-    color: rgb(70,173,176);
-  }
+  appearance: none;
+  background-color: inherit;
+}
 
-  .footer .tommy-contact {
-    left: 20%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align:center;
-    top: 70%;
-    z-index: 4;
-    color: rgb(100,196,199);
+.rightarrowbutton:hover {
+  transform: translate(75px);
+}
 
-  }
+.leftarrowbutton:hover {
+  transform: translate(-75px);
+  animation-duration: 2.5s, 5s, 1s;
+}
 
-  .footer .gia-contact {
-    left: 80%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align:center;
-    top: 70%;
-    position: absolute;
-    text-align:center;
-    z-index: 4;
-    color: rgb(100,196,199);
+.directions {
+  position: absolute;
+  border: none;
+  font-size: x-large;
+  top: 70%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: inherit;
+  color: white;
+  width: 200px;
+  height: auto;
+  font-family: "Chango", sans-serif;
+  z-index: 1;
+}
 
-  }
+.directions:hover {
+  background-color: rgb(194, 189, 189);
+}
 
-  .footer .linkedin {
-    position: absolute;
-    height: auto;
-    width: 1.5%;
-    top: 50%;
-  }
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
 
-  .footer .linkedin:hover {
-    filter: grayscale(100%);
-  }
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  color: black;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
-  .footer .tommy-contact .tommy-button .linkedin {
-    position: absolute;
-    width: 10%;
-    z-index: 5;
-    right: 45%;
-    border: none;
-  }
-  .footer .gia-contact .gia-button .linkedin {
-    position: absolute;
-    width: 10%;
-    z-index: 5;
-    right: 45%;
-    border: none;
-  }
-  /* Loading Animation */
-  .loader-wrapper {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgb(100,196,199);
-    z-index:6;
-    
-  }
-  .loader {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 4px solid #Fff;
-    top:50%;
-    animation: loader 2s infinite ease;
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-  }
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  .loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
-  }
+.header .mainlogo {
+  width: 50%;
+  height: 50%;
+  animation: floater 3s infinite;
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  font-family: "Chango", sans-serif;
+  display: block;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer .fTitle {
+  position: absolute;
+  text-align: center;
+  bottom: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -10%;
+  color: rgb(70, 173, 176);
+}
+
+.footer .tommy-contact {
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  z-index: 4;
+  color: rgb(100, 196, 199);
+}
+
+.footer .gia-contact {
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  position: absolute;
+  text-align: center;
+  z-index: 4;
+  color: rgb(100, 196, 199);
+}
+
+.footer .linkedin {
+  position: absolute;
+  height: auto;
+  width: 1.5%;
+  top: 50%;
+}
+
+.footer .linkedin:hover {
+  filter: grayscale(100%);
+}
+
+.footer .tommy-contact .tommy-button .linkedin {
+  position: absolute;
+  width: 10%;
+  z-index: 5;
+  right: 45%;
+  border: none;
+}
+.footer .gia-contact .gia-button .linkedin {
+  position: absolute;
+  width: 10%;
+  z-index: 5;
+  right: 45%;
+  border: none;
+}
+/* Loading Animation */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(100, 196, 199);
+  z-index: 6;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+  top: 50%;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
 
 @keyframes loader {
   0% {
     transform: rotate(0deg);
   }
-  
+
   25% {
     transform: rotate(180deg);
   }
-  
+
   50% {
     transform: rotate(180deg);
   }
-  
+
   75% {
     transform: rotate(360deg);
   }
-  
+
   100% {
     transform: rotate(360deg);
   }
@@ -299,19 +286,19 @@
   0% {
     height: 0%;
   }
-  
+
   25% {
     height: 0%;
   }
-  
+
   50% {
     height: 100%;
   }
-  
+
   75% {
     height: 100%;
   }
-  
+
   100% {
     height: 0%;
   }
@@ -320,7 +307,16 @@
 /*Floating Header Main Logo */
 
 @keyframes floater {
-  0%{transform: translateY(-10%);transition: ease 1.5s;}
-  50%{transform: translateY(10%);transition: ease 1.5s;}
-  100%{transform: translateY(-10%);transition: ease 1.5s;}
+  0% {
+    transform: translateY(-10%);
+    transition: ease 1.5s;
+  }
+  50% {
+    transform: translateY(10%);
+    transition: ease 1.5s;
+  }
+  100% {
+    transform: translateY(-10%);
+    transition: ease 1.5s;
+  }
 }
