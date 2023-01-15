@@ -92,17 +92,18 @@
   }
 
   .directions {
-    position: relative;
+    position: absolute;
     margin: auto;
     border: none;
+    font-size: x-large;
+    top: 70%;
+    right: 44%;
     background-color: inherit;
-    color: rgb(70,173,176);
+    color: white;
     width: 200px;
     height: auto;
     font-family: "Chango", sans-serif;
-
-
-    
+    z-index: 1;    
   }
 
   .directions:hover {
@@ -154,15 +155,22 @@
   animation: floater 3s infinite;
 }
 
-footer {
-  background-color: white;
-  z-index: 3;
+.footer {
+  background-color: rgb(255, 255, 255);
+  font-family: "Chango", sans-serif;
   display:block;
-  padding: 3px;
   position:fixed;
   height: 100px;
   width: 100%;
   bottom: 0;
+}
+
+.footer .fTitle {
+  position: absolute;
+  text-align: center;
+  bottom: 45%;
+  left: 45%;
+  color: black;
 }
 
 /* Loading Animation */
