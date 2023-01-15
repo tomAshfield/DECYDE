@@ -10,6 +10,7 @@ A tool created for the purpose of helping others who suffer from indecision on a
 
 Potential Updates(Not Promising): 
 Add 2 more pages containg more fun outside/inside activities with links attached.
+Make website more mobile friendly(This'll take me waaay too much time).
 
 Final Message: 
 We the creators hope you find our project useful enough to help midagate this issue and wish you to have fun in any activity we help decyde with you!
